@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Playfair+Display:wght@800&family=Rajdhani&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* nav srction start */
+
+.navber{
+  width: 1326px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-name {
+  color: #0b0223;
+  font-size: 45px;
+  width: 50%;
+  font-weight: 700;
+  display: flex;
+  padding-left: 150px;
+  align-items: center;
+}
+.nav-name span {
+  color: #ff42a5;
+}
+.nav-name img {
+  height: 40px;
+  width: 86px;
+  padding-right: 15px;
+}
+.nav-icon {
+  width: 50%;
+}
+.nav-icon ul {
+  display: flex;
+  justify-content: right;
+  padding-right: 150px;
+  gap: 50px;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+}
+.nav-icon a {
+  text-decoration: none;
+}
+.fa-brands {
+  width: 33.916px;
+  height: 24px;
+  color: red;
+  /* margin-right: 5px; */
+}
+.list {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding:15px 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-tiktok {
+  color: black;
+}
+.list a{
+    margin-right: 15px;
+}

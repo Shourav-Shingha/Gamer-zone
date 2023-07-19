@@ -1,0 +1,12 @@
+@media screen and (max-width:425px) {
+    .navber{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-icon ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
