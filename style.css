@@ -149,3 +149,56 @@
 }
 
 /* first banner section end */
+
+/* gamer section start */
+
+.gamer {
+  width: 100%;
+  height: 450px;
+  text-align: right;
+  display: flex;
+  background:#f8ebf4f8;
+}
+.gamer-img{
+  width: 50%;
+  height: 100%;
+}
+.gamer-img img{
+  width: 100%;
+  height: 100%;
+  padding: 105px 50px 0px 100px;
+  text-align: right;
+}
+.gamer-writing {
+  width: 50%;
+ height: 100%;
+  padding: 120px;
+}
+.gamer-writing h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin: 10px;
+}
+.gamer-writing p {
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px;
+}
+.gamer-writing button{
+  color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding: 15px 30px;
+border-radius: 48px;
+background:#FF42A5;
+margin: 10px;
+}
+.gamer-writing span{
+  font-style: oblique;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* gamer section complete */
