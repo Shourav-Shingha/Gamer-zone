@@ -229,6 +229,22 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.photo-collage :hover{
+  border: 2px solid #ff42a5;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-filter: brightness(60%) ;
+}
+.hover-button{
+  display: none;
+}
+.four{
+  left: 300PX;
+  bottom: 300px;
+  position: absolute;
+}
+
 .photo-collage img {
   width: 250px;
   margin-top: 40px;
@@ -320,6 +336,13 @@
   margin-top: 20px;
   width: 220px;
   gap: 10px;
+}
+.last-section  :hover{
+  color: #fa3a9d;
+  border: 1px solid #ff42a5;
+  border-radius: 30px;
+  
+
 }
 
 /* last section complete */
